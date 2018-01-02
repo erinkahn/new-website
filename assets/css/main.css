@@ -333,7 +333,7 @@ a{
     -webkit-filter: grayscale(0);
   }
 
-  /* mobile size images */
+  /* dev mobile size images */
   .gkc figure {background-image: url(../img/mobile/gkc.jpg);}
   .frenchs figure {background-image: url(../img/mobile/frenchs.jpg);}
   .oreo figure {background-image: url(../img/mobile/oreo.jpg);}
@@ -344,7 +344,7 @@ a{
 
 /* ---------design page ---------*/
   
-   /* mobile size images */
+   /* design mobile size images */
   .more figure {background-image: url(../img/more.jpg);}
   .mom figure {background-image: url(../img/mobile/mom.jpg);}
   .cliff figure {background-image: url(../img/mobile/cliff.jpg);}
@@ -352,7 +352,6 @@ a{
   .ch figure {background-image: url(../img/mobile/ch.jpg);}
   .snapple figure {background-image: url(../img/mobile/snapple.jpg);}
   .waze figure {background-image: url(../img/mobile/waze.jpg);}
-  }
 
 
 /*------resume page-----------*/
@@ -477,32 +476,33 @@ a{
     height: 125px;
   }
   
-  /*.a:hover,
-  .b:hover,
-  .c:hover,
-  .d:hover,
-  .e:hover,
-  .f:hover,
-  .g:hover,
-  .h:hover,
-  .i:hover,
-  .j:hover,
-  .k:hover,
-  .l:hover,
-  .m:hover,
-  .n:hover,
-  .o:hover{
-    border: 10px solid rgba(255, 255, 255, 1);
-    transition: all .4s ease-in;
-    opacity: .5;
-  }*/
-}  
+
+  /* -------product page -----------*/
+
+
+  .product-page-content{
+    display: flex;
+    justify-content: center;
+  }
+
+  .product-page-content h2{
+    padding: 277px 0;
+  }
+
+} 
+
+
 
 
 
 
 /*---------------- TABLET 480----------------*/
 @media screen and (min-width: 480px){
+
+  .page-wrap{
+    
+    padding-top: 100px;
+  }
 
   .header{
     position: relative;
@@ -542,6 +542,9 @@ a{
   }
 
 }
+
+
+
 
 /*---------------- TABLET 768----------------*/
 @media screen and (min-width: 768px){
@@ -703,13 +706,28 @@ a{
     margin-top: 80px;
   }
 
-
   /* tablet size images */
 
   .beer figure {background-image: url(../img/tablet/beer.png);}
+  .gkc figure {background-image: url(../img/tablet/gkc.jpg);}
+  .frenchs figure {background-image: url(../img/tablet/frenchs.jpg);}
+  .oreo figure {background-image: url(../img/tablet/oreo.jpg);}
+  .straightup figure {background-image: url(../img/tablet/straightup.png);}
+  .egg figure {background-image: url(../img/tablet/egg.jpg);}
+  .kayak figure {background-image: url(../img/tablet/kayak.jpg);}
+  .mom figure {background-image: url(../img/tablet/mom.jpg);}
+  .cliff figure {background-image: url(../img/tablet/cliff.jpg);}
+  .letterhead figure {background-image: url(../img/tablet/letterhead.jpg);}
+  .ch figure {background-image: url(../img/tablet/ch.jpg);}
+  .snapple figure {background-image: url(../img/tablet/snapple.jpg);}
+  .waze figure {background-image: url(../img/tablet/waze.jpg);}
 
 
 }
+
+
+
+
 
 /*---------------- 1024 ---------------------*/
 @media screen and (min-width: 1024px) {
@@ -794,7 +812,7 @@ a{
   }
 
   a.egg figure, a.ch figure{
-    height: 512px;
+    height: 534px;
   }
 
   .col-two-fifth{
@@ -835,7 +853,7 @@ a{
 
 
   /* desktop size images */
-  .egg figure {background-image: url(../img/egg.png);}
+  .egg figure {background-image: url(../img/desktop/egg.png);}
   .gkc figure {background-image: url(../img/desktop/gkc.jpg);}
   .oreo figure {background-image: url(../img/desktop/oreo.png);}
   .straightup figure {background-image: url(../img/desktop/straightup.png);}
@@ -845,9 +863,13 @@ a{
   .cliff figure {background-image: url(../img/desktop/cliff.jpg);}
   .letterhead figure {background-image: url(../img/desktop/letterhead.jpg);}
   .waze figure {background-image: url(../img/desktop/waze.jpg);}
-
+  .kayak figure {background-image: url(../img/desktop/kayak.jpg);}
+  .beer figure {background-image: url(../img/desktop/beer.png);}
 
 }
+
+
+
 
 
 /*---------------- BIGGER 1440----------------*/
@@ -998,6 +1020,9 @@ a{
   }
 
 }
+
+
+
 
 /*-------------- BIGGEST 2100 ----------------*/
 @media screen and (min-width: 2100px) {
