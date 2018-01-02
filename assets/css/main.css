@@ -357,7 +357,7 @@ a{
 /*------resume page-----------*/
 
   .resume{
-    margin: 180px 30px;
+    margin: 130px 30px;
   }
 
   .resume h4{
@@ -365,7 +365,6 @@ a{
     font-size: 1.8em;
     padding: 7px 0;
     text-align: center;
-    margin-top: 130px;
   }
 
   .resume h5{
@@ -476,9 +475,7 @@ a{
     height: 125px;
   }
   
-
   /* -------product page -----------*/
-
 
   .product-page-content{
     display: flex;
@@ -500,7 +497,6 @@ a{
 @media screen and (min-width: 480px){
 
   .page-wrap{
-    
     padding-top: 100px;
   }
 
@@ -514,10 +510,6 @@ a{
 
   h2{
     font-size: 2.3em;
-  }
-
-  .menu li{
-    padding: 30px 20px 30px 40px;
   }
 
   #about h2{
@@ -534,11 +526,21 @@ a{
      margin: 0 auto;
   }    
 
+  .resume{
+    margin: 50px 30px;
+  }
+
   /* ----dev page --------------------*/
 
   .page-wrap{
     width: 91.6666666666667%; /* 440 / 480 */
     margin: 0 4.1666666666667%; /* 20 / 480 */
+  }
+
+  /* -----other page--------*/
+
+  .a{
+    margin-top: 0px;
   }
 
 }
@@ -702,11 +704,8 @@ a{
      height: 320px;
   }
 
-  .a, .b, .c{
-    margin-top: 80px;
-  }
 
-  /* tablet size images */
+  /* dev/design tablet size images */
 
   .beer figure {background-image: url(../img/tablet/beer.png);}
   .gkc figure {background-image: url(../img/tablet/gkc.jpg);}
@@ -721,7 +720,6 @@ a{
   .ch figure {background-image: url(../img/tablet/ch.jpg);}
   .snapple figure {background-image: url(../img/tablet/snapple.jpg);}
   .waze figure {background-image: url(../img/tablet/waze.jpg);}
-
 
 }
 
