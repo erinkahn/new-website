@@ -333,6 +333,9 @@ a{
     -webkit-filter: grayscale(0);
   }
 
+
+  .a {background: url(../img/a.jpg) no-repeat center;} 
+
   /* dev mobile size images */
   .gkc figure {background-image: url(../img/mobile/gkc.jpg);}
   .frenchs figure {background-image: url(../img/mobile/frenchs.jpg);}
