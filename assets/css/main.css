@@ -340,10 +340,10 @@ a{
   .gkc figure {background-image: url(../img/mobile/gkc.jpg);}
   .frenchs figure {background-image: url(../img/mobile/frenchs.jpg);}
   .oreo figure {background-image: url(../img/mobile/oreo.jpg);}
-  .straightup figure {background-image: url(../img/mobile/straightup.png);}
-  .egg figure {background-image: url(../img/mobile/egg.jpg);}
+  .sangria figure {background-image: url(../img/mobile/sangria.png);}
+  .nerd figure {background-image: url(../img/mobile/nerd.jpg);}
   .beer figure {background-image: url(../img/mobile/beer1.png);}
-  .kayak figure {background-image: url(../img/mobile/kayak.jpg);}
+  .split figure {background-image: url(../img/mobile/split.jpg);}
 
 /* ---------design page ---------*/
   
@@ -714,9 +714,9 @@ a{
   .gkc figure {background-image: url(../img/tablet/gkc.jpg);}
   .frenchs figure {background-image: url(../img/tablet/frenchs.jpg);}
   .oreo figure {background-image: url(../img/tablet/oreo.jpg);}
-  .straightup figure {background-image: url(../img/tablet/straightup.png);}
-  .egg figure {background-image: url(../img/tablet/egg.jpg);}
-  .kayak figure {background-image: url(../img/tablet/kayak.jpg);}
+  .sangria figure {background-image: url(../img/tablet/sangria.png);}
+  .nerd figure {background-image: url(../img/tablet/nerd.jpg);}
+  .split figure {background-image: url(../img/tablet/split.jpg);}
   .mom figure {background-image: url(../img/tablet/mom.jpg);}
   .cliff figure {background-image: url(../img/tablet/cliff.jpg);}
   .letterhead figure {background-image: url(../img/tablet/letterhead.jpg);}
@@ -772,7 +772,7 @@ a{
 
   a.poster figure,
   a.frenchs figure,
-  a.kayak figure, 
+  a.split figure, 
   a.more figure,
   a.mom figure,
   a.waze figure{
@@ -787,12 +787,12 @@ a{
     height: 323px;
   }
 
-  a.straightup, a.letterhead {
+  a.sangria, a.letterhead {
     width: 65.4545454545455%; /* 360 / 550 */
     margin-right: 3.6363636363636%; /* 20px / 550 */
   }
 
-  a.straightup figure, a.letterhead figure{
+  a.sangria figure, a.letterhead figure{
     height: 320px;
   }
 
@@ -804,15 +804,15 @@ a{
     height: 320px;
   }
 
-  a.kayak, a.waze{
+  a.split, a.waze{
     width: 100%; /* 360 / 360 */
   }
 
-  a.egg, a.ch{
+  a.nerd, a.ch{
     width: 100%; /* 360 / 360 */
   }
 
-  a.egg figure, a.ch figure{
+  a.nerd figure, a.ch figure{
     height: 534px;
   }
 
@@ -854,17 +854,17 @@ a{
 
 
   /* desktop size images */
-  .egg figure {background-image: url(../img/desktop/egg.png);}
+  .nerd figure {background-image: url(../img/desktop/nerd.jpg);}
   .gkc figure {background-image: url(../img/desktop/gkc.jpg);}
   .oreo figure {background-image: url(../img/desktop/oreo.png);}
-  .straightup figure {background-image: url(../img/desktop/straightup.png);}
+  .sangria figure {background-image: url(../img/desktop/sangria.png);}
   .mom figure {background-image: url(../img/desktop/mom.png);}
   .ch figure {background-image: url(../img/desktop/ch.jpg);}
   .snapple figure {background-image: url(../img/desktop/snapple.jpg);}
   .cliff figure {background-image: url(../img/desktop/cliff.jpg);}
   .letterhead figure {background-image: url(../img/desktop/letterhead.jpg);}
   .waze figure {background-image: url(../img/desktop/waze.jpg);}
-  .kayak figure {background-image: url(../img/desktop/kayak.jpg);}
+  .split figure {background-image: url(../img/desktop/split.jpg);}
   .beer figure {background-image: url(../img/desktop/beer.png);}
 
 }
@@ -919,6 +919,8 @@ a{
     width: 95.8333333333333%; /* 1380/1440 */
     margin: 0 2.0833333333333%; /* 30 / 1440 */
     float: left;
+    display: flex;
+    justify-content: center;
   }
 
   /* ---------other page-------- */
